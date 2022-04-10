@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0E1218;
+}
+
+.custom{
+    position: absolute;
+    left: 80%;
+}
+
+.card{
+    border: 10px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    height: 693px;
+    width: 450px;
+    position: absolute;
+    background-color: #0E1218;
+    color: #fff;
+}
+
+.card .user_img{
+    position: relative;
+    height: 370px;
+    width: 370px;
+
+    border: 7px solid #8257E5;
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+    clip-path: inset(0 38px 0 0);
+
+}
+.card .info{
+    width: 203px;
+    height: 194.7px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+
+    background: linear-gradient(#000, rgba(255, 255, 255, 0.067), #000);
+}
+.card .info .infos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card .info .infos p{
+ width: 30%;
+}
+.card .info .infos .company{
+    width: 90%;
+}
+
+
