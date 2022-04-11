@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Popins', sans-serif;
 }
 
 html, body{
@@ -61,10 +65,27 @@ html, body{
     flex-wrap: wrap;
 }
 .card .info .infos p{
- width: 30%;
-}
-.card .info .infos .company{
     width: 90%;
+    margin-bottom: 10px;
+}
+.card .ifo .infos img{
+    margin-right: 10px;
+}
+.custom .btn{
+    padding: 20px;
+    width: 229px;
+    height: 58px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+} 
+.custom{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
